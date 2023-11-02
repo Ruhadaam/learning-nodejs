@@ -1,0 +1,17 @@
+Belirli işlemleri gerçekleştirmek için nodejs bazı npmlere ihtiyaç duyar.
+
+npmler local ve global olarak ikiye ayrılır. global npmler nodejs ile birlikte gelir. yalnızca kullanımak istenen projeye eklenir.
+local npmler terminalden eklenir.
+
+projeye npm pakati dahil etmek için "require" kullanılır.
+
+ÖRNEK
+const http = require('http');
+
+
+
+
+//SUNUCU OLUŞTURMA
+sunucu oluşturmak için http global paketine ihtiyacımız var.
+ardında "createServer" fonksiyonuyla sunucu oluşturulur. Bu sunucu request(istek) ve response(sonuç) değişkenlerini kullanır.
+response.end() http yanıtını sonlandırmak için kullanılır.

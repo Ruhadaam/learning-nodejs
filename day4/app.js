@@ -10,6 +10,7 @@ const server = http.createServer((request, response) => {
         fs.readFile("index.html", (error, html) => {
             response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
+
         });
 
     } else if (request.url == "/deneme") {
@@ -17,11 +18,13 @@ const server = http.createServer((request, response) => {
             response.writeHead(200, { "Content-Type": "text/html" });
             response.write(html);
 
+
         })
     } else {
         fs.readFile("404.html", (error, html) => {
             response.writeHead(404, { "Content-Type": "text/html" });
             response.write(html);
+
         })
 
     }

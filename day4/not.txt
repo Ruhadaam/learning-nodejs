@@ -1,0 +1,12 @@
+//ROUTİNG
+const fs = require('fs');
+
+fs.readFile(filename, options, callback);
+
+"fs" isimli paket import edilir. sanırım bu  "file sistem"  anlamına geliyor. dosya işlemlerini kontrol etmek içn kullanılır.
+
+filename: Okunacak dosyanın adını ve yolunu içeren bir dizedir.
+
+options (isteğe bağlı): Okuma seçeneklerini belirten bir nesne olabilir, örneğin karakter kodlaması (encoding) veya okuma modu (flag) seçenekleri.
+
+callback: Okuma işlemi tamamlandığında çağrılacak bir geri çağırım işlevidir. İşlem tamamlandığında bu işlev, hata veya okunan veri ile çağrılır.

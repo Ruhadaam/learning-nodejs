@@ -1,0 +1,7 @@
+fs.appendFile("deneme.txt", "deneme", (err) => {...})
+
+fs.appendFile() = belirtilen dosyaya veri eklemek için kullanılır. Bu yöntem, var olan bir dosyaya veriyi ekler ve dosya yoksa oluşturur.
+
+"deneme.txt": Veriyi eklemek veya oluşturmak istediğiniz dosyanın adını ve yolunu içeren  dizedir. 
+"deneme": Eklemek istediğiniz veriyi temsil eder. Bu örnekte, "deneme" metni dosyaya eklenir.
+(err) => { ... }: İşlem tamamlandığında çağrılacak olan bir geri çağırım işlecidir. 

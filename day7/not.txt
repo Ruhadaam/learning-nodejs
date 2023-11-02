@@ -1,0 +1,14 @@
+şimdiye kadarki işlemleri express js kütüphanesi ile yapacağız.
+ilk olarak;
+
+"npm install express" komutu ile gereki node modules'leri kurduk.
+
+
+package.json dosyasında "dependencies" kısmı gerekli node modules'leri belirtir. eğer bir eksik varsa veya node modules klasörü yoksa 
+program çalıştığında otomatik olarak dependencies kısmındaki gerekli npm'ler indirilir.
+devdependencies kısmı geliştiricinin ihtiyacı olan node modules'leri içerir.
+
+
+
+DEVDEPENDENCIES KISMINA MODULS EKLEMEK ICIN
+npm install express --save-dev

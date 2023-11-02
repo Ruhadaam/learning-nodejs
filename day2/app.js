@@ -24,10 +24,3 @@ response.end();
 server.listen(3000);
 console.log("listening 3000 port");
 
-/**
- * HTTP STATUS CODES
- * 200 => OK
- * 400 => Bad Request
- * 404 => Not Found
- * 500 => Server Error
- */

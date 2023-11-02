@@ -1,0 +1,9 @@
+"Chunk" ve "buffer" terimleri, özellikle dosya okuma ve ağ iletişimi gibi veri işleme konularında önemli olan iki farklı kavramdır. 
+
+Chunk :veri akışının belirli boyutlarda parçalara bölünmüş hali olarak düşünülebilir. Her bir parça, belirli bir boyut ve veri miktarını temsil eder.
+
+Buffer: verilerin bellekte geçici olarak saklandığı bir veri yapısıdır. Genellikle veri okuma ve yazma işlemleri için kullanılır.
+
+
+
+gerekli kodları routes.js dosyasına aktardık ve bunu app.js dosyasına import ettik.

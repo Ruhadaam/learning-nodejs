@@ -1,0 +1,10 @@
+response.setHeader() = HTTP yanıt başlıklarını ayarlamak için kullanılır.
+response.write() = yanıtın gövdesine veri eklemek veya yazmak için kullanılır.
+statuscode = yanıtın statü kodunu ayarlamak için kullanılır.
+
+//BAZI STATÜ KODLARI
+  * 200 => OK
+  * 400 => Bad Request
+  * 404 => Not Found
+  * 500 => Server Error
+  
